@@ -1,0 +1,283 @@
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* border: 1px solid red; */
+
+}
+
+.helmet {
+    width: 38%;
+    z-index: 1;
+    position: relative;
+    
+}
+
+.Heading {
+    margin: 6% auto;
+    font-size: 35px;
+    word-spacing: 30px;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+}
+
+.Logo {
+    width: 80px;
+    margin: 1.5% auto;
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+}
+
+.logoText {
+    /* border: 1px solid white; */
+    width: 200px;
+    font-size: 13px;
+    font-weight: 100px;
+    margin: 0.3% auto;
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+}
+
+.lines {
+    position: absolute;
+    z-index: 2;
+    top: 230px;
+    width: 50%;
+}
+.box1 {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: none;
+    border-right: none;
+    padding: 50px;
+}
+.box2 {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: none;
+    border-right: none;
+    padding: 100px 50px;
+
+}
+.box3 {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: none;
+    border-right: none;
+    padding: 50px;
+}
+
+.bottomText {
+    position: absolute;
+    z-index: 2;
+    margin-bottom: -30%;
+    width: 50%;
+}
+
+.text1 {
+    /* border: 1px solid white; */
+    padding-bottom: 20px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    word-spacing: 8px;
+
+}
+.text2{
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    word-spacing: 8px;
+}
+.text3{
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 20px;
+    word-spacing: 8px;
+}
+/* Media Query for Mobile Devices */
+@media screen and (min-width: 390px) and (max-width: 767px) {
+    .Heading {
+        font-size: 20px;
+        margin: 20% auto;
+        word-spacing: 15px;
+    }
+
+    .Logo {
+        width: 50px;
+        margin: 5% auto;
+    }
+
+    .logoText {
+        margin: 0.8% auto;
+        font-size: 10px;
+
+    }
+
+    .helmet {
+        width: 100%;
+        margin: 20%;
+        /* overflow: hidden; */
+    }
+    .lines {
+        top: 197px;
+        width: 80%;
+    }
+
+    .box1 {
+        padding: 30px 10px;
+        font-size: 15px;
+    }
+    .box2 {
+        padding: 50px 10px;
+        font-size: 15px;
+    
+    }
+    .box3 {
+        padding: 30px 10px;
+        font-size: 15px;
+    }
+
+
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (min-width: 280px) and (max-width: 360px) {
+    .Heading {
+        font-size: 14px;
+        margin: 30% auto;
+        word-spacing: 15px;
+    }
+
+    .Logo {
+        width: 40px;
+        margin: 10% auto;
+    }
+
+    .logoText {
+        margin: 2% auto;
+        font-size: 10px;
+
+    }
+
+    .helmet {
+        width: 100%;
+        margin: 30%;
+        /* overflow: hidden; */
+    }
+    .lines {
+        margin: -10%;
+        width: 80%;
+    }
+
+    .box1 {
+        padding: 13px 6px;
+        font-size: 11px;
+    }
+    .box2 {
+        padding: 50px 6px;
+        font-size: 11px;
+    
+    }
+    .box3 {
+        padding: 13px 6px;
+        font-size: 11px;
+    }
+    .bottomText {
+        margin-bottom: -140%;
+        width: 80%;
+    }
+    
+    .text1 {
+        /* border: 1px solid white; */
+        font-size: 10px;
+        word-spacing: 8px;
+    
+    }
+    .text2{
+        /* border: 1px solid white; */
+        font-size: 10px;
+        word-spacing: 8px;
+    }
+    .text3{
+        /* border: 1px solid white; */
+        font-size: 10px;
+        word-spacing: 8px;
+        text-align: center;
+    }
+}
+/* Media Query for Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .Heading {
+        font-size: 30px;
+        margin: 14% auto;
+        word-spacing: 25px;
+    }
+
+    .Logo {
+        width: 70px;
+        margin: 4% auto;
+    }
+
+    .logoText {
+        margin: 0.8% auto;
+        font-size: 10px;
+
+    }
+
+    .helmet {
+        width: 100%;
+    }
+    
+    .lines {
+        margin-top: 3%; 
+        width: 80%;
+    }
+
+    .box1 {
+        padding: 50px 10px;
+        font-size: 20px;
+    }
+    .box2 {
+        padding: 120px 10px;
+        font-size: 20px;
+    
+    }
+    .box3 {
+        padding: 50px 10px;
+        font-size: 20px;
+    }
+
+
+
+
+}
+
+/* Media Query for Laptops and Desktops */
+@media only screen and (min-width: 1024px) {
+    /* Styles remain the same as in the default code block */
+}
+
+
+
+
+
+
+
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 1
+} */

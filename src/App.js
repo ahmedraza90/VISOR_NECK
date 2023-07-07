@@ -38,10 +38,10 @@ function App() {
           <p className='text-color'>
             An NFT Company
           </p>
-          <p style={{ color: "white" }}>
+          <p className='p_text'>
             WITH FIVE YEARS OF EXPERIENCE
           </p>
-          <p style={{ color: "white" }}>
+          <p className='p_text'>
             LANUCHING FREE MINTS FOR TWITTER MFERS
           </p>
         </div>

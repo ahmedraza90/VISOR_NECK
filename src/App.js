@@ -1,7 +1,7 @@
 import './style.css';
-import helmet from './images/Helmet.png'
+import helmet from './images/FullImage.png'
 import logo from './images/LOGO.png'
-import './styl.css';
+// import './styl.css';
 
 
 
@@ -10,8 +10,26 @@ function App() {
 
   return (
     <div>
+      {/* <center>
+          <h2>
+            MOWS,&nbsp;&nbsp;&nbsp;inc .
+          </h2>
+        </center>
+        <center>
+        <div className="Logo">
+          <img src={logo} alt="" />
+        </div>
+        </center> */}
       <div className="parent">
-        <div className="helmet">
+        <center>
+          <div className="helmet">
+            <img src={helmet} alt="" />
+          </div>
+        </center>
+
+        
+
+        {/* <div className="helmet">
           <img src={helmet} alt="" />
         </div>
         <div className="logoText">
@@ -46,7 +64,7 @@ function App() {
           <div className="text3">
             LANUCHING FREE MINTS FOR TWITTER MFERS
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

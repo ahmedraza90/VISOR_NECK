@@ -18,7 +18,7 @@ body {
     font-family: var(--font-base);
     line-height: 1.7;
     color: var(--c-body);
-    background-image: url("./images/Background.png");
+    background-color: #2e0127;
     background-repeat: no-repeat;
     /* background-size: cover; */
     overflow: hidden;
@@ -27,6 +27,46 @@ body {
     /* background-color: #6a0f53; */
 }
 
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    
+}
+
+.helmet {
+    /* border: 1px solid red; */
+    position: relative;
+    z-index: 1;
+    
+}
+
+.Logo {
+    width: 60px;
+
+}
+
+h2{
+    font-family: 'Roboto Slab', serif;
+    color: #a9a9a9;
+}
+@media screen and (min-width: 390px) and (max-width: 767px) {
+    .helmet {
+        width: 1v;
+        /* height:fit-content; */
+        /* margin: 20%; */
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1900px) {
+    .helmet {
+        width: 35vw;
+        /* align-self: center; */
+    }
+
+}
 
 .date {
     /* display : flex; */
@@ -42,21 +82,7 @@ body {
 } */
 
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-    font-weight: 600;
-    color: var(--c-dark);
-}
+
 
 
 

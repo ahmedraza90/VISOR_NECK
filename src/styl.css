@@ -12,8 +12,9 @@
     width: 37%;
     z-index: 1;
     position: relative;
-    
+    margin: auto;    
 }
+
 
 .Heading {
     margin: 6% auto;

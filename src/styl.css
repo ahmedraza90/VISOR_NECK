@@ -9,7 +9,7 @@
 }
 
 .helmet {
-    width: 38%;
+    width: 37%;
     z-index: 1;
     position: relative;
     
@@ -46,7 +46,7 @@
 .lines {
     position: absolute;
     z-index: 2;
-    top: 230px;
+    top: 210px;
     width: 50%;
 }
 .box1 {
@@ -72,7 +72,7 @@
 .bottomText {
     position: absolute;
     z-index: 2;
-    margin-bottom: -30%;
+    margin-bottom: -31%;
     width: 50%;
 }
 
@@ -105,7 +105,7 @@
     word-spacing: 8px;
 }
 /* Media Query for Mobile Devices */
-@media screen and (min-width: 390px) and (max-width: 767px) {
+@media screen and (min-width: 395px) and (max-width: 767px) {
     .Heading {
         font-size: 20px;
         margin: 20% auto;
@@ -147,11 +147,35 @@
         font-size: 15px;
     }
 
+    .bottomText {
+        margin-bottom: -100%;
+        width: 80%;
+    }
+    
+    .text1 {
+        /* border: 1px solid white; */
+        font-size: 16px;
+        word-spacing: 8px;
+    
+    }
+    .text2{
+        /* border: 1px solid white; */
+        font-size: 16px;
+        word-spacing: 8px;
+    }
+    .text3{
+        /* border: 1px solid white; */
+        font-size: 16px;
+        word-spacing: 8px;
+        text-align: center;
+    }
+    
+
 
 }
 
 /* Media Query for Mobile Devices */
-@media screen and (min-width: 280px) and (max-width: 360px) {
+@media screen and (min-width: 360px) and (max-width: 394px) {
     .Heading {
         font-size: 14px;
         margin: 30% auto;
@@ -171,16 +195,16 @@
 
     .helmet {
         width: 100%;
-        margin: 30%;
+        margin: 20%;
         /* overflow: hidden; */
     }
     .lines {
-        margin: -10%;
+        margin: -6%;
         width: 80%;
     }
 
     .box1 {
-        padding: 13px 6px;
+        padding: 23px 6px;
         font-size: 11px;
     }
     .box2 {
@@ -189,11 +213,143 @@
     
     }
     .box3 {
-        padding: 13px 6px;
+        padding: 23px 6px;
         font-size: 11px;
     }
     .bottomText {
-        margin-bottom: -140%;
+        margin-bottom: -90%;
+        width: 80%;
+    }
+    
+    .text1 {
+        /* border: 1px solid white; */
+        font-size: 10px;
+        word-spacing: 8px;
+    
+    }
+    .text2{
+        /* border: 1px solid white; */
+        font-size: 10px;
+        word-spacing: 8px;
+    }
+    .text3{
+        /* border: 1px solid white; */
+        font-size: 10px;
+        word-spacing: 8px;
+        text-align: center;
+    }
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 280px) {
+    .Heading {
+        font-size: 14px;
+        margin: 30% auto;
+        word-spacing: 15px;
+    }
+
+    .Logo {
+        width: 40px;
+        margin: 10% auto;
+    }
+
+    .logoText {
+        margin: 2% auto;
+        font-size: 10px;
+
+    }
+
+    .helmet {
+        width: 100%;
+        margin-top: 25%;
+        /* overflow: hidden; */
+    }
+    .lines {
+        margin: -20%;
+        width: 80%;
+    }
+
+    .box1 {
+        padding: 15px 6px;
+        font-size: 11px;
+    }
+    .box2 {
+        padding: 40px 6px;
+        font-size: 11px;
+    
+    }
+    .box3 {
+        padding: 15px 6px;
+        font-size: 11px;
+    }
+    .bottomText {
+        margin-bottom: -130%;
+        width: 80%;
+    }
+    
+    .text1 {
+        /* border: 1px solid white; */
+        font-size: 10px;
+        word-spacing: 8px;
+    
+    }
+    .text2{
+        /* border: 1px solid white; */
+        font-size: 10px;
+        word-spacing: 8px;
+    }
+    .text3{
+        /* border: 1px solid white; */
+        font-size: 10px;
+        word-spacing: 8px;
+        text-align: center;
+    }
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (width: 540px) {
+    .Heading {
+        font-size: 14px;
+        margin: 15% auto;
+        word-spacing: 15px;
+    }
+
+    .Logo {
+        width: 40px;
+        margin: 6% auto;
+    }
+
+    .logoText {
+        margin: 2% auto;
+        font-size: 10px;
+
+    }
+
+    .helmet {
+        width: 100%;
+        margin-top: -6%;
+        /* overflow: hidden; */
+    }
+    .lines {
+        margin: -5%;
+        width: 80%;
+    }
+
+    .box1 {
+        padding: 30px 6px;
+        font-size: 11px;
+    }
+    .box2 {
+        padding: 80px 6px;
+        font-size: 11px;
+    
+    }
+    .box3 {
+        padding: 30px 6px;
+        font-size: 11px;
+    }
+    .bottomText {
+        margin-bottom: -50%;
         width: 80%;
     }
     
@@ -230,37 +386,198 @@
 
     .logoText {
         margin: 0.8% auto;
-        font-size: 10px;
+        font-size: 15px;
 
     }
 
     .helmet {
         width: 100%;
+        margin-top: -3%;
     }
     
     .lines {
-        margin-top: 3%; 
+        margin-top: 1%; 
         width: 80%;
     }
 
     .box1 {
-        padding: 50px 10px;
+        padding: 40px 10px;
         font-size: 20px;
     }
     .box2 {
-        padding: 120px 10px;
+        padding: 125px 10px;
         font-size: 20px;
     
     }
     .box3 {
-        padding: 50px 10px;
+        padding: 40px 10px;
         font-size: 20px;
     }
 
-
+    .bottomText {
+        margin-bottom: -80%;
+        width: 80%;
+    }
+    
+    .text1 {
+        /* border: 1px solid white; */
+        font-size: 20px;
+        word-spacing: 8px;
+    
+    }
+    .text2{
+        /* border: 1px solid white; */
+        font-size: 20px;
+        word-spacing: 8px;
+    }
+    .text3{
+        /* border: 1px solid white; */
+        font-size: 20px;
+        word-spacing: 8px;
+        text-align: center;
+    }
 
 
 }
+
+/* Media Query for Tablets */
+@media only screen and (min-width: 1280px) and (max-width: 1680px) {
+    .Heading {
+        font-size: 17px;
+        margin: 9% auto;
+        word-spacing: 25px;
+    }
+
+    .Logo {
+        width: 50px;
+        margin: 4% auto;
+    }
+
+    .logoText {
+        margin: 0.8% auto;
+        font-size: 15px;
+
+    }
+
+    .helmet {
+        width: 38%;
+        margin-top: 2.9%;
+    }
+    
+    .lines {
+        margin-top: -1%; 
+        width: 80%;
+    }
+
+    .box1 {
+        padding: 20px 10px;
+        font-size: 15px;
+    }
+    .box2 {
+        padding: 50px 10px;
+        font-size: 15px;
+    
+    }
+    .box3 {
+        padding: 20px 10px;
+        font-size: 15px;
+    }
+
+    .bottomText {
+        margin-bottom: -35%;
+        width: 80%;
+    }
+    
+    .text1 {
+        /* border: 1px solid white; */
+        font-size: 10px;
+        word-spacing: 8px;
+    
+    }
+    .text2{
+        /* border: 1px solid white; */
+        font-size: 10px;
+        word-spacing: 8px;
+    }
+    .text3{
+        /* border: 1px solid white; */
+        font-size: 10px;
+        word-spacing: 8px;
+        text-align: center;
+    }
+
+
+}
+
+/* Media Query for Tablets */
+@media only screen and (width: 1024px) {
+    .Heading {
+        font-size: 17px;
+        margin: 9% auto;
+        word-spacing: 25px;
+    }
+
+    .Logo {
+        width: 50px;
+        margin: 4% auto;
+    }
+
+    .logoText {
+        margin: 2% auto;
+        font-size: 10px;
+
+    }
+
+    .helmet {
+        width: 38%;
+        margin-top: 2%;
+    }
+    
+    .lines {
+        margin-top: -6%; 
+        width: 80%;
+    }
+
+    .box1 {
+        padding: 20px 10px;
+        font-size: 15px;
+    }
+    .box2 {
+        padding: 50px 10px;
+        font-size: 15px;
+    
+    }
+    .box3 {
+        padding: 20px 10px;
+        font-size: 15px;
+    }
+
+    .bottomText {
+        margin-bottom: -35%;
+        width: 80%;
+    }
+    
+    .text1 {
+        /* border: 1px solid white; */
+        font-size: 10px;
+        word-spacing: 8px;
+    
+    }
+    .text2{
+        /* border: 1px solid white; */
+        font-size: 10px;
+        word-spacing: 8px;
+    }
+    .text3{
+        /* border: 1px solid white; */
+        font-size: 10px;
+        word-spacing: 8px;
+        text-align: center;
+    }
+
+
+}
+
 
 /* Media Query for Laptops and Desktops */
 @media only screen and (min-width: 1024px) {

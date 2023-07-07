@@ -67,13 +67,15 @@ h2{
 .Heading {
     font-family: 'Roboto Slab', serif;
     font-weight: 900;
-    letter-spacing: 5px;
+    letter-spacing: 15px;
     color: white;
-    margin-top: 7px;
+    margin-top: 10px;
     white-space: nowrap;
     overflow: hidden; 
     width: 0;
-    animation: typing 4s steps(40, end) forwards;
+
+    animation: typing 8s steps(40, end)  forwards;
+
 }
 
 @keyframes typing {
@@ -89,14 +91,17 @@ p{
     letter-spacing: 7px;
 }
 @media screen and (min-width: 390px) and (max-width: 767px) {
-    
+    .Heading {
+        letter-spacing: 5px;
+        font-size: 1rem;
+    }
     .helmet {
         width: 1v;
         /* height:fit-content; */
         /* margin: 20%; */
     }
     p{
-        font-size: 1px;
+        font-size: 0.65rem;
     }
 
 }

@@ -95,7 +95,7 @@ p{
 @media screen and (min-width: 390px) and (max-width: 767px) {
     .Heading {
         letter-spacing: 5px;
-        font-size: 0.75rem;
+        font-size: 0.95rem;
         animation: typing 4s steps(40, end)  forwards;
         max-width: 90vw;
     }
@@ -247,7 +247,7 @@ img {
     }
     .Heading {
         letter-spacing: 5px;
-        font-size: 0.75rem;
+        font-size: 0.95rem;
         animation: typing 4s steps(40, end)  forwards;
         max-width: 90vw;
     }
@@ -277,7 +277,7 @@ img {
     }
     .Heading {
         letter-spacing: 5px;
-        font-size: 0.75rem;
+        font-size: 0.95rem;
         animation: typing 4s steps(40, end)  forwards;
         max-width: 90vw;
     }

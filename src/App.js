@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
       <center>
-        <h2>
+        <h2 className='text-color'>
           MOWS,&nbsp;&nbsp;&nbsp;inc .
         </h2>
       </center>
@@ -36,7 +36,7 @@ function App() {
       <center>
         <div >
           <p className='text-color'>
-            An NFT Company
+            AN NFT COMPANY
           </p>
           <p className='p_text'>
             WITH FIVE YEARS OF EXPERIENCE
@@ -56,7 +56,7 @@ function App() {
       <center>
         <div>
           <p className='text-color'>
-            All Rights Reserved
+            ALL RIGHTS RESERVED
           </p>
         </div>
       </center>

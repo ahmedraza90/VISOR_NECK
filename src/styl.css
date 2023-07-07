@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Roboto+Slab:wght@400;500;700;900&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+ body{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Ubuntu', sans-serif;
+ }
 .parent {
     display: flex;
     flex-direction: column;
@@ -11,8 +17,7 @@
 .helmet {
     width: 37%;
     z-index: 1;
-    position: relative;
-    margin: auto;    
+    position: relative;    
 }
 
 

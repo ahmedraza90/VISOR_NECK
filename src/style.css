@@ -21,7 +21,7 @@ body {
     background-color: #2e0127;
     background-repeat: no-repeat;
     /* background-size: cover; */
-    overflow: hidden;
+    /* overflow: hidden; */
     /* margin-top: -10px; */
     /* background-blend-mode: difference; */
     /* background-color: #6a0f53; */
@@ -46,19 +46,59 @@ body {
 
 .Logo {
     width: 60px;
-
-}
+    animation: rotation 0.7s ease-in ;
+  }
+  @keyframes rotation {
+    from {
+       transform: rotate(0deg);
+    }
+    to {
+       transform: rotate(360deg);
+    }
+  }
 
 h2{
     font-family: 'Roboto Slab', serif;
     color: #a9a9a9;
+    font-size: 15px;
+    margin-top: 3px;
+}
+
+.Heading {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 900;
+    letter-spacing: 5px;
+    color: white;
+    margin-top: 7px;
+    white-space: nowrap;
+    overflow: hidden; 
+    width: 0;
+    animation: typing 4s steps(40, end) forwards;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.text-color{
+    color: #b8019c;
+}
+
+p{
+    letter-spacing: 7px;
 }
 @media screen and (min-width: 390px) and (max-width: 767px) {
+    
     .helmet {
         width: 1v;
         /* height:fit-content; */
         /* margin: 20%; */
     }
+    p{
+        font-size: 1px;
+    }
+
 }
 @media screen and (min-width: 1024px) and (max-width: 1900px) {
     .helmet {

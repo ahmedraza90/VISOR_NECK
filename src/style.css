@@ -41,11 +41,13 @@ body {
     /* border: 1px solid red; */
     position: relative;
     z-index: 1;
+    min-width: 90vw;
     
 }
 
 .Logo {
-    width: 60px;
+    margin-block: 20px;
+    width: 120px;
     animation: rotation 0.7s ease-in ;
   }
   @keyframes rotation {
@@ -60,22 +62,22 @@ body {
 h2{
     font-family: 'Roboto Slab', serif;
     color: #a9a9a9;
-    font-size: 15px;
-    margin-top: 3px;
+    font-size: 35px;
+    margin-top: 70px;
     letter-spacing: 3px;
 }
 
 .Heading {
     font-family: 'Roboto Slab', serif;
     font-weight: 900;
-    letter-spacing: 15px;
+    letter-spacing: 25px;
     color: white;
-    margin-top: 10px;
+    margin-block: 30px;
     white-space: nowrap;
     overflow: hidden; 
     width: 0;
 
-    animation: typing 8s steps(40, end)  forwards;
+    animation: typing 5s steps(40, end)  forwards;
 
 }
 
@@ -105,8 +107,9 @@ p{
         /* margin: 20%; */
     }
     p{
-        font-size: 8.5px;
+        font-size: 12.5px;
         color: white;
+        letter-spacing: 12px;
     }
     /* .p_text{
         font-size: 8.5px;

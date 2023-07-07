@@ -34,7 +34,7 @@ function App() {
         </center>
       </div>
       <center>
-        <div >
+        <div style={{marginBlock:"50px"}}>
           <p className='text-color'>
             AN NFT COMPANY
           </p>
@@ -54,7 +54,7 @@ function App() {
       </center>
       </center>
       <center>
-        <div>
+        <div style={{marginBlock:"30px"}}>
           <p className='text-color'>
             ALL RIGHTS RESERVED
           </p>

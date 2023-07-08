@@ -1,7 +1,7 @@
 import './style.css';
 import helmet from './images/FullImage.png'
 import logo from './images/LOGO.png'
-import twitter from './images/twitter.png'
+import twitter from './images/TWITTER.svg'
 // import './styl.css';
 
 
@@ -13,7 +13,7 @@ function App() {
     <div>
       <center>
         <h2 className='text-color'>
-          MOWS,&nbsp;&nbsp;&nbsp;inc .
+          MOWS,inc.
         </h2>
       </center>
       <center>
@@ -29,6 +29,7 @@ function App() {
       <div>
         <center>
           <div className="helmet">
+          <div className='center'></div>
             <img src={helmet} alt="" />
           </div>
         </center>
@@ -55,8 +56,8 @@ function App() {
       </center>
       <center>
         <div style={{marginBlock:"30px"}}>
-          <p className='text-color'>
-            ALL RIGHTS RESERVED
+          <p className='text-color small'>
+            ALL RIGHTS RESERVED 2023 .
           </p>
         </div>
       </center>

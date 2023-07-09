@@ -1,5 +1,6 @@
 import './style.css';
 import helmet from './images/FullImage.png'
+import helmet2 from './images/Helmet.svg'
 import logo from './images/LOGO.png'
 import twitter from './images/TWITTER.svg'
 // import './styl.css';
@@ -17,8 +18,10 @@ function App() {
         </h2>
       </center>
       <center>
-        <div className="Logo">
-          <img src={logo} alt="" />
+        <div >
+        {/* <div class="cyclone"></div> */}
+          <img className="Logo" src={logo} alt="" />
+          {/* <img className='logo_op' src={logo} alt="" /> */}
         </div>
       </center>
       <center>
@@ -31,6 +34,7 @@ function App() {
           <div className="helmet">
           <div className='center'></div>
             <img src={helmet} alt="" />
+            <img className='center_p' src={helmet2} alt="" />
           </div>
         </center>
       </div>

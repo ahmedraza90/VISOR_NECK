@@ -408,11 +408,11 @@ img {
 @media screen and (max-width: 420px){
     .center_p{
         position: absolute;
-        top: 0.7%;
-        left: 15.9%;
-        opacity: 0.1;
-        width: 70vw;
-        animation: blinker 2.5s ease-out infinite;
+        top: -0.3%;
+        left: 14.9%;
+        opacity: 1;
+        width: 71vw;
+        animation: blinker 6s ease infinite;
         display: block;
       }
       .center{

@@ -47,7 +47,7 @@ function App() {
             WITH FIVE YEARS OF EXPERIENCE
           </p>
           <p className='p_text'>
-            LANUCHING FREE MINTS FOR TWITTER MFERS
+            LAUNCHING FREE MINTS FOR TWITTER MFERS
           </p>
         </div>
       <center>
